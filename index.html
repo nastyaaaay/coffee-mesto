@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Место — кофейня в Вологде</title>
+<meta name="description" content="«Место» — кофейня на Кремлёвской площади в Вологде. Кофе, лимонады, выпечка, можно с собакой.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Место</a>
+    <nav class="nav" id="nav">
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#features">Особенности</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="tel:+79115401100" class="phone-link">+7 (911) 540-11-00</a>
+    <button class="burger" id="burger" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Кремлёвская площадь, 4 · Вологда</p>
+      <h1 class="reveal">Место,<br>где пахнет кофе<br>и деревом</h1>
+      <p class="hero-text reveal">Кофейня в историческом деревянном здании в самом сердце Вологды.
+      Минимализм, авторская кружевная мебель VALKEDA и рейтинг 5,0 по 256 оценкам.</p>
+      <div class="hero-actions reveal">
+        <a href="#menu" class="btn btn-primary">Смотреть меню</a>
+        <a href="https://yandex.ru/maps/21/vologda/?ll=39.884478%2C59.223271&mode=poi&poi%5Bpoint%5D=39.884289%2C59.222896&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D100794866675&z=17.55" target="_blank" rel="noopener" class="btn btn-ghost">Построить маршрут</a>
+      </div>
+      <div class="hero-rating reveal">
+        <span class="stars">★★★★★</span>
+        <span>5,0 · 256 оценок на Яндекс Картах</span>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><span></span></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <img src="assets/chairs.webp" alt="Кружевная мебель VALKEDA в интерьере кофейни" class="about-swatch swatch-1">
+        <img src="assets/coffee-cup.webp" alt="Капучино на столе кофейни «Место»" class="about-swatch swatch-2">
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">О месте</p>
+        <h2>Историческое здание, современный минимализм</h2>
+        <p>Кофейня «Место» расположена в деревянном доме на Кремлёвской площади Вологды — в двух шагах
+        от исторического центра. Интерьер выполнен в спокойном минималистичном стиле с использованием
+        авторской кружевной мебели бренда <strong>VALKEDA</strong>: под одной крышей уживаются кофейня,
+        небольшой магазин подарков и сувениров и экспозиция эксклюзивной мебели.</p>
+        <div class="about-stats">
+          <div><strong>5,0</strong><span>рейтинг Я.Карт</span></div>
+          <div><strong>256</strong><span>оценок</span></div>
+          <div><strong>141</strong><span>отзыв</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <p class="eyebrow reveal center">Особенности</p>
+      <h2 class="reveal center">Удобно и по-домашнему</h2>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">01</div>
+          <h3>Кофе с собой</h3>
+          <p>Заберите любимый напиток и продолжайте прогулку по Кремлёвской площади.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">02</div>
+          <h3>Еда навынос</h3>
+          <p>Выпечка и десерты собственного приготовления — можно взять с собой.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">03</div>
+          <h3>Можно с собакой</h3>
+          <p>Заходите вместе с питомцем — здесь вам рады обоим.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">04</div>
+          <h3>Авторская мебель</h3>
+          <p>Кружевная мебель VALKEDA — часть интерьера и одновременно витрина бренда.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="container">
+      <p class="eyebrow reveal center">Меню</p>
+      <h2 class="reveal center">Что попробовать</h2>
+
+      <div class="menu-tabs reveal" role="tablist">
+        <button class="menu-tab active" data-tab="coffee">Кофе</button>
+        <button class="menu-tab" data-tab="drinks">Лимонады и фильтры</button>
+        <button class="menu-tab" data-tab="bakery">Выпечка</button>
+      </div>
+
+      <div class="menu-panel active" data-panel="coffee">
+        <div class="menu-item"><img src="assets/menu/rye-cappuccino.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Ржаной капучино<small>250 мл</small></span><span class="menu-dots"></span><span class="menu-price">300 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/latte.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Латте<small>350 мл</small></span><span class="menu-dots"></span><span class="menu-price">260 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/americano.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Американо<small>250 мл</small></span><span class="menu-dots"></span><span class="menu-price">200 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/rye-espresso.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Ржаной эспрессо<small>50 мл</small></span><span class="menu-dots"></span><span class="menu-price">210 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/raf-rowan-juniper.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Раф рябина-можжевельник<small>250 мл</small></span><span class="menu-dots"></span><span class="menu-price">300 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/ice-latte.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Пломбирный айс-латте<small>400 мл</small></span><span class="menu-dots"></span><span class="menu-price">300 ₽</span></div>
+      </div>
+
+      <div class="menu-panel" data-panel="drinks">
+        <div class="menu-item"><img src="assets/menu/berry-filter.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Ягодный фильтр<small>250 мл</small></span><span class="menu-dots"></span><span class="menu-price">270 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/cranberry-tonic.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Клюквенный фильтр-тоник<small>400 мл</small></span><span class="menu-dots"></span><span class="menu-price">370 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/voronika-lemonade.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Лимонад вороника-северные травы<small>400 мл</small></span><span class="menu-dots"></span><span class="menu-price">300 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/birch-lemonade.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Берёзовый лимонад<small>400 мл</small></span><span class="menu-dots"></span><span class="menu-price">300 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/onega-tea.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Онежский чай<small>500 мл</small></span><span class="menu-dots"></span><span class="menu-price">350 ₽</span></div>
+      </div>
+
+      <div class="menu-panel" data-panel="bakery">
+        <div class="menu-item"><img src="assets/menu/pancake-pie.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Кусок блинного пирога<small>200 г</small></span><span class="menu-dots"></span><span class="menu-price">310 ₽</span></div>
+        <div class="menu-item"><img src="assets/menu/bear-ear.jpg" alt="" class="menu-item-img"><span class="menu-item-name">Медвежье ушко<small>40 г</small></span><span class="menu-dots"></span><span class="menu-price">150 ₽</span></div>
+      </div>
+
+      <p class="menu-note reveal">Меню обновлено 21 мая · актуальные цены уточняйте в кофейне</p>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="eyebrow reveal center">Отзывы</p>
+      <h2 class="reveal center">Гостям здесь нравится</h2>
+      <p class="reviews-lead reveal center">По 141 отзыву на Яндекс Картах гости особенно тепло отзываются
+      об атмосфере, интерьере и кофе.</p>
+      <div class="reviews-stats">
+        <div class="rstat reveal"><span class="rstat-value">97%</span><span class="rstat-label">Атмосфера</span></div>
+        <div class="rstat reveal"><span class="rstat-value">100%</span><span class="rstat-label">Интерьер</span></div>
+        <div class="rstat reveal"><span class="rstat-value">94%</span><span class="rstat-label">Кофе</span></div>
+        <div class="rstat reveal"><span class="rstat-value">96%</span><span class="rstat-label">Десерты</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <div class="container contacts-grid">
+      <div class="contacts-copy reveal">
+        <p class="eyebrow">Контакты</p>
+        <h2>Ждём в гости</h2>
+        <ul class="contacts-list">
+          <li><strong>Адрес</strong><span>Кремлёвская площадь, 4, Вологда, 1 этаж</span></li>
+          <li><strong>Телефон</strong><span><a href="tel:+79115401100">+7 (911) 540-11-00</a></span></li>
+          <li><strong>Время работы</strong><span>Ежедневно, до 21:00</span></li>
+          <li><strong>Сайт</strong><span><a href="http://valkeda.ru/" target="_blank" rel="noopener">valkeda.ru</a></span></li>
+        </ul>
+        <a href="https://yandex.ru/maps/21/vologda/?ll=39.884478%2C59.223271&mode=poi&poi%5Bpoint%5D=39.884289%2C59.222896&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D100794866675&z=17.55" target="_blank" rel="noopener" class="btn btn-primary">Открыть на Яндекс Картах</a>
+      </div>
+      <a class="contacts-map reveal" href="https://yandex.ru/maps/21/vologda/?ll=39.884478%2C59.223271&mode=poi&poi%5Bpoint%5D=39.884289%2C59.222896&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D100794866675&z=17.55" target="_blank" rel="noopener">
+        <div class="map-pin">
+          <span class="map-pin-dot"></span>
+          <span class="map-pin-label">Место<br><small>Кремлёвская площадь, 4</small></span>
+        </div>
+        <span class="map-cta">Открыть карту →</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="logo">Место</span>
+    <p>Кремлёвская площадь, 4, Вологда</p>
+    <p class="footer-disclaimer">Учебный проект-портфолио, вдохновлённый реальной кофейней «Место» в Вологде. Не официальный сайт заведения.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
